@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    flex-grow:1;
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.link {
+    display: block;
+    box-sizing: content-box;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+.link:hover {
+    color:#fff;
+}
+li:not(:last-child) a{
+    border-right: none;
+}
+.list {
+    list-style: none;
+}
